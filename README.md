@@ -22,6 +22,7 @@ Dit is toegpast door de Meat.js en de Beef.js doordat de Beef niet zichzelf aan 
 
 Credentials
 Door [Mats Bouwense](https://github.com/MatsBNL) Student nummer: 83254
+
 Door [Kevin Vreeke](https://github.com/vree0028) Student nummer: 81874
 
 Github Link naar het programma
