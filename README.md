@@ -1,2 +1,21 @@
 # SDE_Program
 Software Design Program
+
+Introductie
+De samenwerking tussen ons was erg goed en de samenwerking was erg fijn.
+Kevin heeft de basis van het programma gemaakt in overleg met Mats.
+Nadat de basis klaar was, heeft Mats de adapter gemaakt terwijl Kevin verder ging met het werkend maken van het project.
+Bijna alle design patterns werden natuurlijk geimplementeerd behalve de Adapter dus daar moest appart aan gewerkt worden.
+
+Indicatie
+De toegepaste creational patterns zijn de Builder en de Singleton.
+De Builder is toegepast door middel van de constructors in het programma.
+De Singleton is toegepast door middel van de class "Beef" aangezien hier maar één instantie van is.
+
+Opninie
+De toegepaste structural pattern is de Adapter.
+Deze Adapter is toegepast zodat de prijs van de Chicken en de Steak samengevoegd kunnen worden bij het totaal.
+
+Refactoren
+De toegepaste behavioural design pattern is Chain of responsibility.
+Dit is toegpast door de Meat.js en de Beef.js doordat de Beef niet zichzelf aan kan maken maar dit alleen maar kan door een nieuwe Meat aan te maken die dan Beef is.
