@@ -1,6 +1,6 @@
 
   // Adapter Class
-  class Steacken {
+  class PriceAdapter {
     constructor() {
       const newMeat = new Chicken();
   
