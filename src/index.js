@@ -5,3 +5,5 @@ var init = () => {
 
 // Load the program after when the browser is ready
 window.addEventListener("load", init);
+
+import 'main.js'
