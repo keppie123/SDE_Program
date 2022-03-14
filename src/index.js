@@ -59,10 +59,25 @@ abstract class Meat {
 /// <reference path="Meat.ts" />
 
 class Beef extends Meat {
-    
+         */
+
+    /**
+     * The static method that controls the access to the singleton instance.
+     *
+     * This implementation let you subclass the Singleton class while keeping
+     * just one instance of each subclass around.
+     */
+    public static getInstance(name: string, colour: string, weight: number) {
+        if (!Meat.instance) {
+            Meat.instance = new Meat(name: string, colour: string, weight: number);
+        }
+
+        return Meat.instance;
+    }
+
   constructor(name: string, colour: string, weight: number) {
-      super(name, colour, weight);
-  }
+       super(name, colour, weight);
+   }
 }
 class Steak {
     constructor() {
@@ -108,12 +123,25 @@ class Steak {
     }
   }
   
+  class MeatCreator {
+    
+    public createDefMeat () {
+      return Meat.getInstance("Angus", "Red", 500)
+    }
+    
+    public createMeat (name, colour, weight) {
+      return Meat.getInstance(this.name, this.colour, this.weight)
+    }
+  }
+
   // usage
   const oldMeat = new Steak();
   console.log(oldMeat.operations(10, 5, 'add')); // 15
   
   const newMeat = new Chicken();
   console.log(newMeat.add(10, 5)); // 15
+  
+
   
   const adaptedMeat = new Steacken();
   console.log(adaptedMeat.operations(10, 5, 'add')); // 15;
