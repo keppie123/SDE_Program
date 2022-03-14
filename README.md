@@ -20,6 +20,10 @@ Refactoren
 De toegepaste behavioural design pattern is Chain of responsibility.
 Dit is toegpast door de Meat.js en de Beef.js doordat de Beef niet zichzelf aan kan maken maar dit alleen maar kan door een nieuwe Meat aan te maken die dan Beef is.
 
+Creational - Singleton & Builder
+Structural - Adapter
+Behavioural - Chain of Responsibility
+
 Credentials
 Door [Mats Bouwense](https://github.com/MatsBNL) Student nummer: 83254
 
