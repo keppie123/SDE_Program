@@ -12,7 +12,7 @@ De toegepaste creational patterns zijn de Factory method en de Singleton.
 De Factory method is toegepast door middel van de class MeatCreator. In deze class zitten de functie createDefaultMeat voor het standaard gebruik bij het aanmaken van een Meat, en een functie createMeat wanneer je zelf de waardes wilt bepalen van de gemaakte Meat.
 De Singleton is toegepast door middel van de class "Beef" aangezien hier maar één instantie van kan zijn. Doordat als hij aangemaakt word er eerst word gekeken of dat hij er al is of niet, hierdoor vorkom je dat er geen extra classes kunnen zijn.
 
-Opninie
+Opinie
 De toegepaste structural pattern is de Adapter.
 Deze Adapter is toegepast zodat de prijs van de Chicken en de Steak samengevoegd kunnen worden bij het totaal.
 
