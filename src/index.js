@@ -123,7 +123,7 @@ class Steak {
   
   class MeatCreator {
     
-    public createDefMeat () {
+    public createDefaultMeat () {
       return Meat.getInstance("Angus", "Red", 500)
     }
     
