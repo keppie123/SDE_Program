@@ -10,7 +10,7 @@ Bijna alle design patterns werden natuurlijk geimplementeerd behalve de Adapter 
 Indicatie
 De toegepaste creational patterns zijn de Builder en de Singleton.
 De Builder is toegepast door middel van de constructors in het programma.
-De Singleton is toegepast door middel van de class "Beef" aangezien hier maar één instantie van is.
+De Singleton is toegepast door middel van de class "Beef" aangezien hier maar één instantie van kan zijn. Doordat als hij aangemaakt word er eerst word gekeken of dat hij er al is of niet, hierdoor vorkom je dat er geen extra classes kunnen zijn.
 
 Opninie
 De toegepaste structural pattern is de Adapter.
@@ -20,8 +20,11 @@ Refactoren
 De toegepaste behavioural design pattern is Chain of responsibility.
 Dit is toegpast door de Meat.js en de Beef.js doordat de Beef niet zichzelf aan kan maken maar dit alleen maar kan door een nieuwe Meat aan te maken die dan Beef is.
 
+Hieronder staat nog kort de toegepaste patterns. 
 Creational - Singleton & Builder
+
 Structural - Adapter
+
 Behavioural - Chain of Responsibility
 
 Credentials
