@@ -56,8 +56,6 @@ abstract class Meat {
   }
 }
 
-/// <reference path="Meat.ts" />
-
 class Beef extends Meat {
          */
 
